@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "office": {
+      "url": "http://127.0.0.1:8001/mcp"
+    },
+    "retriever": {
+      "url": "http://127.0.0.1:8002/mcp",
+      "headers": { "X-API-Key": "${RETRIEVER_API_KEY}" }
+    }
+  }
+}
